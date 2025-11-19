@@ -35,7 +35,10 @@ export default function index() {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu bg-base-200 min-h-full w-80 p-4">
+          <ul className="menu bg-base-100 min-h-full w-80 p-4">
+            <div className="h-18 mb-4">
+              <img src="logo.png" className="h-16" alt="" />
+            </div>
             {/* Sidebar content here */}
             {links.map((link) => (
               <li key={link.name}>
