@@ -1,0 +1,55 @@
+import { toast } from "sonner";
+import FlexInfo from "./FlexInfo";
+import { useForm } from "react-hook-form";
+
+export default function GetOnDevices() {
+  const form = useForm({
+    defaultValues: {
+      email: "",
+      name: "",
+    },
+  });
+  const { handleSubmit, register } = form;
+  return (
+    <div className="bg-black ">
+      <div className="container mx-auto grid px-4 md:px-0 md:grid-cols-2 py-12 bg-black text-white">
+        <FlexInfo>
+          <h2 className="text-4xl font-bold">Download Our Mobile App</h2>
+          <div className="space-x-4 gap-2 mx-auto md:mx-0  flex flex-col md:flex-row">
+            <button className="btn-white btn  ">
+              <img src="apple_dark.svg" alt="" /> Get On Iphone
+            </button>
+            <button className="btn-white btn ">
+              <img src="google_icon.svg" alt="" /> Get On Android
+            </button>
+          </div>
+        </FlexInfo>
+        <FlexInfo>
+          <form
+            onSubmit={form.handleSubmit((data) => {
+              console.log(data);
+              toast.info(JSON.stringify(data));
+            })}
+            className="bg-base-100 text-base-content p-4 space-y-3 flex flex-col  ring-primary ring-4"
+          >
+            <h2 className="text-3xl font-black">NewsLetter</h2>
+            <p className="text-lg">Subscribe To Newsletter For Updates</p>
+            <input
+              type="text"
+              className="input w-full"
+              placeholder="Name"
+              {...register("name")}
+            />
+            <input
+              type="email"
+              className="input w-full"
+              placeholder="Email"
+              {...register("email")}
+            />
+            <button className="btn btn-primary">Send</button>
+          </form>
+        </FlexInfo>
+      </div>
+    </div>
+  );
+}
