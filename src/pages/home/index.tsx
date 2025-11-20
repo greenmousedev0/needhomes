@@ -14,7 +14,7 @@ import GetOnDevices from "./_components/OnDevices";
 export default function index() {
   const [showVideo, setVideo] = useState<boolean>(false);
   return (
-    <div className="*:text-center md:*:text-left ">
+    <div className="*:text-center md:*:text-left **:ring">
       <Header />
       <section className="bg-base-200">
         <div className="container mx-auto bg-base-200 px-4 md:px-0">
@@ -72,11 +72,11 @@ export default function index() {
           </div>
         </div>
       </section>
-      <div className="space-y-12 px-4 md:px-0">
+      <div className="space-y-12  md:px-0">
         <section>
           <Sectiongrid>
             <FlexInfo className="">
-              <div className="size-3/4 mr-auto ">
+              <div className="size-3/4 md:mr-auto mx-auto ">
                 <img
                   src="workings.png "
                   className="size-full object-contain"
@@ -107,7 +107,7 @@ export default function index() {
           <section className="bg-base-200">
             <Statistics />
           </section>
-          <section className="-mx-4 md:mx-0">
+          <section className=" md:mx-0">
             <CoDev />
           </section>
           <section className="bg-base-200">
@@ -116,7 +116,7 @@ export default function index() {
           <section>
             <CoTypes />
           </section>
-          <section className="py-22 bg-base-200">
+          <section className="py-22 bg-base-200 px-4 md:px-0">
             <div className="h-[420px] flex">
               <img
                 src="how-it-works.png"
@@ -131,7 +131,7 @@ export default function index() {
           <section className=" bg-base-200">
             <FAQ />
           </section>
-          <section className="-mx-4 md:mx-0">
+          <section className="">
             <GetOnDevices />
           </section>
         </div>
