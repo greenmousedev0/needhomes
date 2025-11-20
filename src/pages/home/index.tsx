@@ -14,7 +14,7 @@ import GetOnDevices from "./_components/OnDevices";
 export default function index() {
   const [showVideo, setVideo] = useState<boolean>(false);
   return (
-    <div className="*:text-center md:*:text-left **:ring">
+    <div className="*:text-center md:*:text-left ">
       <Header />
       <section className="bg-base-200">
         <div className="container mx-auto bg-base-200 px-4 md:px-0">
