@@ -12,12 +12,14 @@ import Footer from "./_components/Footer";
 import FAQ from "./_components/FAQ";
 import GetOnDevices from "./_components/OnDevices";
 import Hero from "./_components/Hero";
+import Explore from "./_components/Explore";
 export default function index() {
   const [showVideo, setVideo] = useState<boolean>(false);
   return (
-    <div className="">
+    <>
       <Header />
       <Hero />
+      <Explore />
       <div className="space-y-12  md:px-0">
         <div className="">
           <section className="bg-base-200">
@@ -53,6 +55,6 @@ export default function index() {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }

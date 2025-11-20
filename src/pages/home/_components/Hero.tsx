@@ -3,8 +3,8 @@ import Sectiongrid from "./SectionGrid";
 
 export default function Hero() {
   return (
-    <div>
-      <Sectiongrid className="mt-24 lg:mt-0">
+    <div className="bg-base-200">
+      <Sectiongrid className="pt-24 lg:pt-0 ">
         <FlexInfo className="leading-loose text-center lg:text-left">
           <h1 className="md:text-5xl   text-4xl  font-bold ">
             Your Smooth Journey <br className="" />
