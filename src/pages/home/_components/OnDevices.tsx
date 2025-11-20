@@ -16,10 +16,10 @@ export default function GetOnDevices() {
         <FlexInfo>
           <h2 className="text-4xl font-bold">Download Our Mobile App</h2>
           <div className="space-x-4 gap-2 mx-auto md:mx-0  flex flex-col md:flex-row">
-            <button className="btn-white btn  ">
+            <button className="btn-white btn  btn-block md:w-auto">
               <img src="apple_dark.svg" alt="" /> Get On Iphone
             </button>
-            <button className="btn-white btn ">
+            <button className="btn-white btn  btn-block md:w-auto">
               <img src="google_icon.svg" alt="" /> Get On Android
             </button>
           </div>
