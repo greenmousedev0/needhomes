@@ -72,11 +72,13 @@ export default function index() {
         <section>
           <Sectiongrid>
             <FlexInfo className="">
-              <img
-                src="workings.png "
-                className="flex-1  w-3/4 h-3/4 mx-auto object-contain "
-                alt=""
-              />
+              <div className="size-3/4 mr-auto ">
+                <img
+                  src="workings.png "
+                  className="size-full object-contain"
+                  alt=""
+                />
+              </div>
             </FlexInfo>
 
             <FlexInfo>
