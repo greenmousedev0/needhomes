@@ -36,17 +36,19 @@ export default function GetOnDevices() {
             <p className="text-lg">Subscribe To Newsletter For Updates</p>
             <input
               type="text"
-              className="input w-full"
+              className="input w-full input-lg"
               placeholder="Name"
               {...register("name")}
             />
             <input
               type="email"
-              className="input w-full"
+              className="input w-full input-lg"
               placeholder="Email"
               {...register("email")}
             />
-            <button className="btn btn-accent accent btn-xl">Send</button>
+            <button className="btn btn-accent accent max-w-[350px]  w-full mx-auto btn-xl">
+              Send
+            </button>
           </form>
         </FlexInfo>
       </div>

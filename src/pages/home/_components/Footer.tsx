@@ -98,7 +98,7 @@ export default function Footer() {
             <RenderLinks title="Support" links={support_links} />
           </section>
         </div>
-        <div className="flex flex-col md:flex-row md:items-center mt-12 text-white *:text-left">
+        <div className="flex flex-col md:flex-row md:items-center mt-28 text-white *:text-left">
           <p className="">
             © 2025 Needhomes Property Investment Limited. All rights reserved.
           </p>
