@@ -30,7 +30,7 @@ export default function GetOnDevices() {
               console.log(data);
               toast.info(JSON.stringify(data));
             })}
-            className="bg-base-100 text-base-content p-4 space-y-3 flex flex-col  ring-primary ring-4"
+            className="bg-base-300 text-base-content p-4 w-md mx-auto space-y-3 flex flex-col  ring-primary ring-4"
           >
             <h2 className="text-3xl font-black">NewsLetter</h2>
             <p className="text-lg">Subscribe To Newsletter For Updates</p>
@@ -46,7 +46,7 @@ export default function GetOnDevices() {
               placeholder="Email"
               {...register("email")}
             />
-            <button className="btn btn-primary">Send</button>
+            <button className="btn btn-accent accent btn-xl">Send</button>
           </form>
         </FlexInfo>
       </div>

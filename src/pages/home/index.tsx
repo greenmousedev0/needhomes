@@ -40,7 +40,7 @@ export default function index() {
                 </button>
               </div>
             </div>
-            <div className="flex-1 bg-red-200 grid place-items-center isolate">
+            <div className="flex-1  grid place-items-center isolate">
               <div className="  rounded-md  relative">
                 {showVideo ? (
                   <video
