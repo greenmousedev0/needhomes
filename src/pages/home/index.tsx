@@ -20,7 +20,7 @@ export default function index() {
         <div className="container mx-auto bg-base-200">
           <div className="min-h-[520px]  py-12  mb-4 flex gap-8 flex-wrap px-4">
             <div className="flex-1  min-h-[320px] flex flex-col  justify-center leading-loose space-y-4">
-              <h2 className="text-5xl ">
+              <h2 className="text-5xl font-bold ">
                 Your Smooth Journey
                 <br /> to Property Ownership.
               </h2>
