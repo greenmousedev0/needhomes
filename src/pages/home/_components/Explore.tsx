@@ -6,11 +6,11 @@ export default function Explore() {
     <div className="mb-12">
       <SectionGrid>
         <FlexInfo className="">
-          <div className="flex flex-1 md:justify-start justify-center p-4">
-            <div className=" p-2 md:size-[520px]  size-[320px]">
+          <div className="flex flex-1 md:justify-start justify-center ">
+            <div className="md:size-[520px]   size-[320px]">
               <img
                 src="workings.png"
-                className="size-full object-contain"
+                className="size-full object-contain "
                 alt=""
               />
             </div>

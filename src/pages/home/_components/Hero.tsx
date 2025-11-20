@@ -10,7 +10,7 @@ export default function Hero() {
             Your Smooth Journey <br className="" />
             to Property Ownership.
           </h1>
-          <p className="md:text-xl text-lg">
+          <p className="md:text-xl text-md">
             Own your dream home transparently, affordably from anywhere.
              Co-develop verified projects or own fractional property shares and
             track progress from your dashboard.
