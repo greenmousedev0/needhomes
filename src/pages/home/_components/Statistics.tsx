@@ -25,7 +25,7 @@ export default function Statistics() {
           return (
             <div
               key={item.title + index}
-              className=" size-52 p-4 grid place-items-center gap-3 text-center bg-red-200"
+              className=" size-52 p-4 grid place-items-center gap-3 text-center "
             >
               <img src={`stats/stats_${index + 1}.svg`} alt="" />
               {/*<div></div>
