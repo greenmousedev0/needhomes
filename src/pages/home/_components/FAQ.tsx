@@ -20,9 +20,9 @@ export default function FAQ() {
     },
   ];
   return (
-    <div className="container  mx-auto py-22 bg-base-200">
+    <div className="contain  mx-auto py-22 bg-base-200">
       <div className="grid md:grid-cols-2">
-        <FlexInfo>
+        <FlexInfo className="text-center md:text-left">
           <h2 className="text-3xl font-black">Frequently Asked Question</h2>
           <p>
             Comm on frequently asked question in real estate investment at

@@ -83,7 +83,7 @@ export default function Footer() {
         background: "#39383E",
       }}
     >
-      <footer className="container mx-auto px-4 md:px-0 *:text-left">
+      <footer className="contain mx-auto px-4 md:px-0 *:text-left">
         <div className="flex flex-col md:flex-row gap-4">
           <div className="max-w-2xs space-y-3 text-white flex-1">
             <img src="logo_white.png" alt="" className="h-18" />

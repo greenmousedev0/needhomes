@@ -13,13 +13,13 @@ export default function BankIntegrations() {
   );
   const images = Object.values(modules).map((m) => m.default);
   return (
-    <div className="container mx-auto py-22">
+    <div className="contain mx-auto py-22">
       <h2 className="text-center  mx-auto max-w-xl text-3xl font-black">
         Integrate with leading financial institution
       </h2>
-      <div className="h-20 container mx-auto mt-12">
+      <div className="h-20 contain mx-auto mt-12">
         <div className="embla" ref={emblaRef}>
-          <div className="embla__container  gap-2 justify-center">
+          <div className="embla__contain  gap-2 justify-center">
             {images.map((item, index) => (
               <div
                 className="embla__slide   flex-[0_0_220px] h-22"

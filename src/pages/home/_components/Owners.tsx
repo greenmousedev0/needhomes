@@ -10,8 +10,8 @@ export default function Owners() {
         </FlexInfo>
 
         <FlexInfo>
-          <div className="mx-auto max-w-md space-y-6">
-            <h2 className="text-5xl font-bold ">
+          <div className="mx-auto max-w-md space-y-6 text-center md:text-left">
+            <h2 className="md:text-5xl text-4xl font-bold ">
               What is Fractional Ownership?
             </h2>
             <p className="text-lg leading-loose">

@@ -22,7 +22,7 @@ export default function Header() {
   ];
   return (
     <div className="h-20 grid place-items-center bg-base-200">
-      <nav className="container mx-auto flex justify-between px-4 md:px-0 items-center">
+      <nav className="contain mx-auto flex justify-between px-4 md:px-0 items-center">
         <h2 className="text-xl font-bold">
           <img src="logo.png" className="h-12" alt="" />
         </h2>

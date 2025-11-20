@@ -12,7 +12,7 @@ export default function GetOnDevices() {
   const { handleSubmit, register } = form;
   return (
     <div className="bg-black  ">
-      <div className="container mx-auto grid px-4 md:px-0 md:grid-cols-2 py-12 bg-black text-white">
+      <div className="contain mx-auto grid px-4 md:px-0 md:grid-cols-2 py-12 bg-black text-white text-center md:text-left">
         <FlexInfo>
           <h2 className="text-4xl font-bold">Download Our Mobile App</h2>
           <div className="space-x-4 gap-2 mx-auto md:mx-0  flex flex-col md:flex-row">
