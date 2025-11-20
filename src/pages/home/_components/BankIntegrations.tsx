@@ -1,11 +1,17 @@
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-const modules = import.meta.glob("/src/assets/banks/*", { eager: true });
-const images = Object.values(modules).map((m) => m.default);
+const modules = import.meta.glob<string, { default: string }>(
+  "/src/assets/banks/*",
+  { eager: true },
+);
 
 export default function BankIntegrations() {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  const [emblaRef] = useEmblaCarousel(
+    { loop: false, skipSnaps: true, containScroll: "keepSnaps" },
+    [Autoplay()],
+  );
+  const images = Object.values(modules).map((m) => m.default);
   return (
     <div className="container mx-auto py-12">
       <h2 className="text-center  mx-auto max-w-xl text-3xl font-black">
@@ -16,7 +22,7 @@ export default function BankIntegrations() {
           <div className="embla__container  gap-4 justify-center">
             {images.map((item, index) => (
               <div
-                className="embla__slide  flex-[0_0_220px] h-20"
+                className="embla__slide   flex-[0_0_220px] h-20"
                 key={"slide" + index}
               >
                 <img src={item} alt="" className="h-full" />
