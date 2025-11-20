@@ -20,7 +20,7 @@ export default function Statistics() {
   return (
     <div className="container mx-auto space-y-8 py-4">
       <h2 className="text-4xl  ">Our Statistics</h2>
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] bg-red-500 justify-between place-items-center">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))]  justify-between place-items-center">
         {stats.map((item, index) => {
           return (
             <div
