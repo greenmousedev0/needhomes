@@ -16,10 +16,10 @@ export default function Hero() {
             track progress from your dashboard.
           </p>
           <div className="lg:flex-row gap-2 flex flex-col mt-6 mb-6 ">
-            <button className="btn btn-accent btn-lg">
+            <button className="btn btn-accent btn-lg w-fit md:w-auto mx-auto md:mx-0">
               <img src="apple_white.svg" alt="" /> Get on Iphone
             </button>
-            <button className="btn btn-accent btn-lg">
+            <button className="btn btn-accent btn-lg w-fit md:w-auto mx-auto md:mx-0">
               {" "}
               <img src="google_icon.svg" alt="" />
               Get on Android

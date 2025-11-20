@@ -20,7 +20,7 @@ export default function CoDev() {
     },
   ] as const;
   return (
-    <div className="relative isolate flex flex-col min-h-[520px]  px-4 md:px-0 ">
+    <div className="relative isolate flex flex-col min-h-[520px]  px-4 md:px-0 pb-12 md:pb-0 ">
       <img
         src="co_dev.png"
         alt=""
