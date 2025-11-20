@@ -18,8 +18,8 @@ export default function index() {
       <Header />
       <section className="bg-base-200">
         <div className="container mx-auto bg-base-200">
-          <div className="min-h-[520px]  py-12  mb-4 flex gap-8 flex-wrap px-4">
-            <div className="flex-1  min-h-[320px] flex flex-col  justify-center leading-loose space-y-4">
+          <div className="min-h-[520px]  py-12  mb-4 flex gap-8 flex-wrap ">
+            <div className="flex-1  min-h-80 flex flex-col  justify-center leading-loose space-y-4">
               <h2 className="text-5xl font-bold ">
                 Your Smooth Journey
                 <br /> to Property Ownership.
@@ -33,15 +33,15 @@ export default function index() {
                 <button className="btn btn-accent">
                   <img src="apple_white.svg" alt="" /> Get on Iphone
                 </button>
-                <button className="btn btn-primary ">
+                <button className="btn btn-accent">
                   {" "}
                   <img src="google_icon.svg" alt="" />
                   Get on Android
                 </button>
               </div>
             </div>
-            <div className="flex-1 grid place-items-center isolate">
-              <div className="md:size-[420px] size-[320px]  rounded-md  relative">
+            <div className="flex-1 bg-red-200 grid place-items-center isolate">
+              <div className="  rounded-md  relative">
                 {showVideo ? (
                   <video
                     src="/video.mp4"
@@ -97,36 +97,38 @@ export default function index() {
             </FlexInfo>
           </Sectiongrid>
         </section>
-        <section>
-          <Statistics />
-        </section>
-        <section className="-mx-4 md:mx-0">
-          <CoDev />
-        </section>
-        <section>
-          <Owners />
-        </section>
-        <section>
-          <CoTypes />
-        </section>
-        <section>
-          <div className="h-[420px] flex">
-            <img
-              src="how-it-works.png"
-              className="w-full flex-1 mx-auto object-contain"
-              alt=""
-            />
-          </div>
-        </section>
-        <section>
-          <BankIntegrations />
-        </section>
-        <section>
-          <FAQ />
-        </section>
-        <section className="-mx-4 md:mx-0">
-          <GetOnDevices />
-        </section>
+        <div className="">
+          <section className="bg-base-200">
+            <Statistics />
+          </section>
+          <section className="-mx-4 md:mx-0">
+            <CoDev />
+          </section>
+          <section className="bg-base-200">
+            <Owners />
+          </section>
+          <section>
+            <CoTypes />
+          </section>
+          <section className="py-22 bg-base-200">
+            <div className="h-[420px] flex">
+              <img
+                src="how-it-works.png"
+                className="w-full flex-1 mx-auto object-contain"
+                alt=""
+              />
+            </div>
+          </section>
+          <section>
+            <BankIntegrations />
+          </section>
+          <section className=" bg-base-200">
+            <FAQ />
+          </section>
+          <section className="-mx-4 md:mx-0">
+            <GetOnDevices />
+          </section>
+        </div>
       </div>
       <Footer />
     </div>

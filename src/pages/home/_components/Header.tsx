@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Menu } from "lucide-react";
+import { ChevronDown, Menu } from "lucide-react";
 
 export default function Header() {
   const links = [
@@ -28,8 +28,8 @@ export default function Header() {
         </h2>
         <div className=" hidden md:block space-x-4">
           {links.map((link) => (
-            <Link to={link.path} key={link.name}>
-              {link.name}
+            <Link to={link.path} key={link.name} className="btn btn-ghost">
+              {link.name} <ChevronDown size={12} />
             </Link>
           ))}
         </div>

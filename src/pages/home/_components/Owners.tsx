@@ -3,7 +3,7 @@ import Sectiongrid from "./SectionGrid";
 
 export default function Owners() {
   return (
-    <div>
+    <div className="py-12">
       <Sectiongrid>
         <FlexInfo className="px-6">
           <img src="ownership.png" alt="" className="" />

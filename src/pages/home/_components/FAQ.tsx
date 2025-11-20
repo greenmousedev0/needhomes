@@ -20,7 +20,7 @@ export default function FAQ() {
     },
   ];
   return (
-    <div className="container py-12 mx-auto">
+    <div className="container  mx-auto py-22 bg-base-200">
       <div className="grid md:grid-cols-2">
         <FlexInfo>
           <h2 className="text-3xl font-black">Frequently Asked Question</h2>

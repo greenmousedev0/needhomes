@@ -11,7 +11,7 @@ export default function GetOnDevices() {
   });
   const { handleSubmit, register } = form;
   return (
-    <div className="bg-black ">
+    <div className="bg-black  ">
       <div className="container mx-auto grid px-4 md:px-0 md:grid-cols-2 py-12 bg-black text-white">
         <FlexInfo>
           <h2 className="text-4xl font-bold">Download Our Mobile App</h2>

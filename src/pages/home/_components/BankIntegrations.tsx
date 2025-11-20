@@ -13,7 +13,7 @@ export default function BankIntegrations() {
   );
   const images = Object.values(modules).map((m) => m.default);
   return (
-    <div className="container mx-auto py-12">
+    <div className="container mx-auto py-22">
       <h2 className="text-center  mx-auto max-w-xl text-3xl font-black">
         Integrate with leading financial institution
       </h2>
