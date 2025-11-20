@@ -19,13 +19,13 @@ export default function BankIntegrations() {
       </h2>
       <div className="h-20 container mx-auto mt-12">
         <div className="embla" ref={emblaRef}>
-          <div className="embla__container  gap-4 justify-center">
+          <div className="embla__container  gap-2 justify-center">
             {images.map((item, index) => (
               <div
-                className="embla__slide   flex-[0_0_220px] h-20"
+                className="embla__slide   flex-[0_0_220px] h-22"
                 key={"slide" + index}
               >
-                <img src={item} alt="" className="h-full" />
+                <img src={item} alt="" className="h-full w-full" />
               </div>
             ))}
           </div>

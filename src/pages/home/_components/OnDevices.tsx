@@ -30,7 +30,7 @@ export default function GetOnDevices() {
               console.log(data);
               toast.info(JSON.stringify(data));
             })}
-            className="bg-base-300 text-base-content p-4   max-w-md space-y-3 flex flex-col  ring-primary ring-4"
+            className="bg-base-300 text-base-content p-4  ml-auto max-w-lg w-full space-y-3 flex flex-col  ring-primary ring-4"
           >
             <h2 className="text-3xl font-black">NewsLetter</h2>
             <p className="text-lg">Subscribe To Newsletter For Updates</p>
