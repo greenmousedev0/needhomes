@@ -1,6 +1,6 @@
-import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
+//@ts-ignore
 const modules = import.meta.glob<string, { default: string }>(
   "/src/assets/banks/*",
   { eager: true },
@@ -11,6 +11,7 @@ export default function BankIntegrations() {
     { loop: false, skipSnaps: true, containScroll: "keepSnaps" },
     [Autoplay()],
   );
+  //@ts-ignore
   const images = Object.values(modules).map((m) => m.default);
   return (
     <div className="contain mx-auto py-22">
