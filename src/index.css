@@ -92,5 +92,5 @@
 }*/
 
 @utility contain {
-  @apply max-w-7xl;
+  @apply max-w-[1920px];
 }

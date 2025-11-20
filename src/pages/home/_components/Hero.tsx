@@ -4,28 +4,29 @@ import Sectiongrid from "./SectionGrid";
 export default function Hero() {
   return (
     <div>
-      <Sectiongrid className="mt-24">
-        <FlexInfo className="leading-loose text-center md:text-left">
-          <h1 className="md:text-4xl   text-3xl  font-black">
-            Your Smooth Journey to Property Ownership.
+      <Sectiongrid className="mt-24 lg:mt-0">
+        <FlexInfo className="leading-loose text-center lg:text-left">
+          <h1 className="md:text-5xl   text-4xl  font-bold ">
+            Your Smooth Journey <br className="" />
+            to Property Ownership.
           </h1>
-          <p>
+          <p className="md:text-xl text-lg">
             Own your dream home transparently, affordably from anywhere.
              Co-develop verified projects or own fractional property shares and
             track progress from your dashboard.
           </p>
-          <div className="space-x-2 mt-6 ">
-            <button className="btn btn-accent">
+          <div className="lg:flex-row gap-2 flex flex-col mt-6 mb-6 ">
+            <button className="btn btn-accent btn-lg">
               <img src="apple_white.svg" alt="" /> Get on Iphone
             </button>
-            <button className="btn btn-accent">
+            <button className="btn btn-accent btn-lg">
               {" "}
               <img src="google_icon.svg" alt="" />
               Get on Android
             </button>
           </div>
         </FlexInfo>
-        <FlexInfo className="md:justify-end justify-center flex-row items-center">
+        <FlexInfo className="lg:justify-end justify-center flex-row items-center">
           <img
             src="home_video.png"
             className="size-8/10 object-contain"

@@ -10,13 +10,17 @@ export default function Owners() {
         </FlexInfo>
 
         <FlexInfo>
-          <h2 className="text-4xl font-black">What is Fractional Ownership?</h2>
-          <p>
-            Fractional ownership is a structure in which multiple individuals or
-            entities can each purchase a portion of an asset. Each investor buys
-            a fraction of the property, sharing both the cost and the potential
-            profit.
-          </p>
+          <div className="mx-auto max-w-md space-y-6">
+            <h2 className="text-5xl font-bold ">
+              What is Fractional Ownership?
+            </h2>
+            <p className="text-lg leading-loose">
+              Fractional ownership is a structure in which multiple individuals
+              or entities can each purchase a portion of an asset.
+              <br /> Each investor buys a fraction of the property, sharing both
+              the cost and the potential profit.
+            </p>
+          </div>
         </FlexInfo>
       </Sectiongrid>
     </div>

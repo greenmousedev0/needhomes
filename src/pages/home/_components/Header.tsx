@@ -26,7 +26,7 @@ export default function Header() {
         <h2 className="text-xl font-bold">
           <img src="logo.png" className="h-12" alt="" />
         </h2>
-        <div className=" hidden md:block space-x-2">
+        <div className=" hidden lg:block space-x-2">
           {links.map((link) => (
             <Link to={link.path} key={link.name} className="btn btn-ghost">
               {link.name} <ChevronDown size={12} />
@@ -35,14 +35,14 @@ export default function Header() {
         </div>
         <label
           htmlFor="home-drawer"
-          className="md:hidden btn btn-square btn-ghost"
+          className="lg:hidden btn btn-square btn-ghost"
         >
           {/*<label htmlFor="home-drawer" className="btn drawer-button">
             Open drawer
           </label>*/}
           <Menu />
         </label>
-        <div className="space-x-2 hidden md:block">
+        <div className="space-x-2 hidden lg:block">
           <button className="btn btn-neutral btn-outline">Sign In</button>
           <button className="btn btn-primary">Get Free Account</button>
         </div>

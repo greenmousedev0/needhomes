@@ -32,7 +32,7 @@ export default function index() {
           <section>
             <CoTypes />
           </section>
-          <section className="py-22 bg-base-200 px-4 md:px-0">
+          <section className="md:py-22 py-4 bg-base-200 px-4 md:px-0">
             <div className="h-[420px] flex">
               <img
                 src="how-it-works.png"
