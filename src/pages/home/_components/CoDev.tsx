@@ -20,8 +20,12 @@ export default function CoDev() {
     },
   ] as const;
   return (
-    <div className="relative isolate flex flex-col min-h-[520px] ">
-      <img src="co_dev.png" alt="" className="absolute -z-10 h-full w-full" />
+    <div className="relative isolate flex flex-col min-h-[520px]  px-4 md:px-0 ">
+      <img
+        src="co_dev.png"
+        alt=""
+        className="absolute -z-10 h-full w-full inset-0"
+      />
       <div className="space-y-12 py-12 text-white flex flex-col w-full">
         <div className="mx-auto max-w-3xl text-center space-y-2">
           <h2 className="text-3xl font-semibold">What is Co- Development?</h2>

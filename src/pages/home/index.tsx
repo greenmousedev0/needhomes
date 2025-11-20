@@ -100,7 +100,7 @@ export default function index() {
         <section>
           <Statistics />
         </section>
-        <section>
+        <section className="-mx-4 md:mx-0">
           <CoDev />
         </section>
         <section>
