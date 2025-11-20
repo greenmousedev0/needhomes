@@ -16,7 +16,7 @@ export default function Explore() {
             </div>
           </div>
         </FlexInfo>
-        <FlexInfo className="leading-loose space-y-6 text-center">
+        <FlexInfo className="leading-loose space-y-6 text-center md:text-left">
           <h2 className="text-md md:text-lg">
             At Needhomes, we redefine property ownership, using our PropTech
             platform to make owning real estate easier, more transparent, and
