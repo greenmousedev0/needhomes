@@ -16,7 +16,7 @@ export default function CoTypes() {
     },
   ] as const;
   return (
-    <div className="grid grid-cols-[repeat(auto-fit,minmax(350px,.7fr))] container mx-auto gap-12  w-fit">
+    <div className="grid grid-cols-[repeat(auto-fit,minmax(350px,.7fr))] container mx-auto gap-12  w-fit justify-center">
       {co_types.map((type, index) => (
         <div
           key={index}
