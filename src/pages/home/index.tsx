@@ -124,7 +124,7 @@ export default function index() {
         <section>
           <FAQ />
         </section>
-        <section>
+        <section className="-mx-4 md:mx-0">
           <GetOnDevices />
         </section>
       </div>
