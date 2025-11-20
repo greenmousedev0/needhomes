@@ -4,9 +4,9 @@ import Sectiongrid from "./SectionGrid";
 export default function Hero() {
   return (
     <div>
-      <Sectiongrid>
-        <FlexInfo className="leading-loose">
-          <h1 className="text-4xl font-black">
+      <Sectiongrid className="mt-24">
+        <FlexInfo className="leading-loose text-center md:text-left">
+          <h1 className="md:text-4xl   text-3xl  font-black">
             Your Smooth Journey to Property Ownership.
           </h1>
           <p>

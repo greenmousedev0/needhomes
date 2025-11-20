@@ -18,8 +18,10 @@ export default function Statistics() {
     },
   ] as const;
   return (
-    <div className="container mx-auto space-y-8 py-22 bg-base-200">
-      <h2 className="text-4xl  ">Our Statistics</h2>
+    <div className="container mx-auto space-y-8 py-22 bg-base-200  px-4 md:px-0">
+      <h2 className="text-4xl  text-center font-bold md:text-left">
+        Our Statistics
+      </h2>
       <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,auto))] justify-center md:justify-between">
         {stats.map((item, index) => (
           <div

@@ -1,8 +1,16 @@
 import type { PropsWithChildren } from "react";
+interface SectionGridProps extends PropsWithChildren {
+  className?: string;
+}
 
-export default function Sectiongrid(props: PropsWithChildren) {
+export default function SectionGrid(props: SectionGridProps) {
   return (
-    <div className="container mx-auto flex min-h-[520px] flex-col md:flex-row ">
+    <div
+      className={
+        "container mx-auto flex min-h-[520px] flex-col md:flex-row " +
+        props.className
+      }
+    >
       {props.children}
     </div>
   );

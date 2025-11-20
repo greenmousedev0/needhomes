@@ -15,9 +15,8 @@ import Hero from "./_components/Hero";
 export default function index() {
   const [showVideo, setVideo] = useState<boolean>(false);
   return (
-    <div className="*:text-center md:*:text-left ">
+    <div className="">
       <Header />
-
       <Hero />
       <div className="space-y-12  md:px-0">
         <div className="">
