@@ -17,9 +17,9 @@ export default function index() {
     <div className="*:text-center md:*:text-left ">
       <Header />
       <section className="bg-base-200">
-        <div className="container mx-auto bg-base-200">
-          <div className="min-h-[520px]  py-12  mb-4 flex gap-8 flex-wrap ">
-            <div className="flex-1  min-h-80 flex flex-col  justify-center leading-loose space-y-4">
+        <div className="container mx-auto bg-base-200 px-4 md:px-0">
+          <div className="py-12 flex flex-col md:flex-row gap-8 items-center">
+            <div className="flex-1 flex flex-col justify-center leading-loose space-y-4 text-center md:text-left">
               <h2 className="text-5xl font-bold ">
                 Your Smooth Journey
                 <br /> to Property Ownership.
@@ -40,20 +40,24 @@ export default function index() {
                 </button>
               </div>
             </div>
-            <div className="flex-1  grid place-items-center isolate">
-              <div className="  rounded-md  relative">
+            <div className="flex-1 w-full grid place-items-center isolate">
+              <div className="rounded-md relative w-full px-4 md:px-0">
                 {showVideo ? (
                   <video
                     src="/video.mp4"
                     autoPlay
                     loop
                     muted
-                    className="absolute inset-0 object-cover"
+                    className="absolute inset-0 object-cover w-full h-full"
                   />
                 ) : (
                   <>
-                    <div className="flex flex-col items-center justify-center h-full">
-                      <img src="home_video.png" alt="" />
+                    <div className="flex flex-col items-center justify-center h-full w-full">
+                      <img
+                        src="home_video.png"
+                        alt=""
+                        className="w-full object-cover"
+                      />
                       {/*<button
                         className="btn btn-circle btn-xl"
                         onClick={() => setVideo(true)}
