@@ -1,8 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 @import "tailwindcss";
 @plugin "daisyui" {
   themes: all;
 }
 
+@theme {
+  --font-display: "Open Sans", sans-serif;
+
+  --font-sans: "Open Sans", sans-serif;
+}
 @plugin "daisyui/theme" {
   name: "needhomes";
   default: true;
@@ -83,3 +90,7 @@
   flex: 0 0 100%;
   min-width: 0;
 }*/
+
+@utility contain {
+  @apply max-w-7xl;
+}

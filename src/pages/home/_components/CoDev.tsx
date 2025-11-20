@@ -26,7 +26,7 @@ export default function CoDev() {
         alt=""
         className="absolute -z-10 h-full w-full inset-0"
       />
-      <div className="space-y-12 py-12 text-white flex flex-col w-full">
+      <div className="space-y-12 py-12 text-white  flex flex-col w-full">
         <div className="mx-auto max-w-3xl text-center space-y-2">
           <h2 className="text-3xl font-semibold">What is Co- Development?</h2>
           <p>
@@ -37,7 +37,7 @@ export default function CoDev() {
           </p>
         </div>
       </div>
-      <div className="text-white w-full">
+      <div className="text-white w-full contain mx-auto">
         <div className="grid grid-cols-[repeat(auto-fit,minmax(345px,1fr))] place-items-center gap-2">
           {dev_steps.map((step, index) => (
             <div

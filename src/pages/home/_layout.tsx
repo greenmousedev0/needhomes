@@ -23,11 +23,9 @@ export default function index() {
       <div className="drawer">
         <input id="home-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
-          <Outlet />
-          {/* Page content here */}
-          {/*<label htmlFor="home-drawer" className="btn drawer-button">
-            Open drawer
-          </label>*/}
+          <main>
+            <Outlet />
+          </main>
         </div>
         <div className="drawer-side">
           <label

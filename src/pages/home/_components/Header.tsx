@@ -26,7 +26,7 @@ export default function Header() {
         <h2 className="text-xl font-bold">
           <img src="logo.png" className="h-12" alt="" />
         </h2>
-        <div className=" hidden md:block space-x-4">
+        <div className=" hidden md:block space-x-2">
           {links.map((link) => (
             <Link to={link.path} key={link.name} className="btn btn-ghost">
               {link.name} <ChevronDown size={12} />
