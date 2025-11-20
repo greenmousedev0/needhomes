@@ -25,9 +25,11 @@ export default function Explore() {
             secure and flexible pathways to property investment.With NeedHomes,
             you don't just invest in real estate — you invest in your future.
           </h2>
-          <button className="btn btn-neutral btn-outline">
-            Explore How It Works{" "}
-          </button>
+          <div className="mt-6 ">
+            <button className="btn btn-primary  btn-outline btn-lg">
+              Explore How It Works{" "}
+            </button>
+          </div>
         </FlexInfo>
       </SectionGrid>
     </div>
