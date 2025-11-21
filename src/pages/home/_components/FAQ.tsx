@@ -23,13 +23,15 @@ export default function FAQ() {
     <div className="contain  mx-auto py-22 bg-base-200">
       <div className="grid md:grid-cols-2">
         <FlexInfo className="text-center md:text-left">
-          <h2 className="text-3xl font-black">Frequently Asked Question</h2>
-          <p>
-            Comm on frequently asked question in real estate investment at
-            NeedHomes
-          </p>
-          <div>
-            <button className="btn btn-primary">Contact Us</button>
+          <div className="w-full md:max-w-5/6 space-y-4">
+            <h2 className="text-3xl font-black">Frequently Asked Question</h2>
+            <p>
+              Comm on frequently asked question in real estate investment at
+              NeedHomes
+            </p>
+            <div>
+              <button className="btn btn-primary">Contact Us</button>
+            </div>
           </div>
         </FlexInfo>
         <div>
