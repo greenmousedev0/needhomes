@@ -23,7 +23,7 @@ export default function BankIntegrations() {
           <div className="embla__contain  gap-2 justify-center">
             {images.map((item, index) => (
               <div
-                className="embla__slide   flex-[0_0_220px] h-22"
+                className="embla__slide aspect-video   md:flex-[0_0_220px] h-15 md:h-22"
                 key={"slide" + index}
               >
                 <img src={item} alt="" className="h-full w-full" />
